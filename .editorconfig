@@ -1,0 +1,33 @@
+﻿[*.cs]
+
+# IDE0090: Use 'new(...)'
+csharp_style_implicit_object_creation_when_type_is_apparent = false
+
+# IDE0063: Use simple 'using' statement
+csharp_prefer_simple_using_statement = false
+
+# CA1816: Dispose methods should call SuppressFinalize
+dotnet_diagnostic.CA1816.severity = silent
+
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = none
+
+# CA1859: Use concrete types when possible for improved performance
+dotnet_diagnostic.CA1859.severity = silent
+
+# IDE0305: Simplify collection initialization
+dotnet_style_prefer_collection_expression = false
+
+# IDE0290: Use primary constructor
+csharp_style_prefer_primary_constructors = false
+
+# SYSLIB1045: Convert to 'GeneratedRegexAttribute'.
+dotnet_diagnostic.SYSLIB1045.severity = silent
+
+# IDE0270: Use coalesce expression
+dotnet_diagnostic.IDE0270.severity = silent
+
+file_header_template = Copyright (c) Timofei Zhakov. All rights reserved.
+
+# CS0659: Type overrides Object.Equals(object o) but does not override Object.GetHashCode()
+dotnet_diagnostic.CS0659.severity = silent
